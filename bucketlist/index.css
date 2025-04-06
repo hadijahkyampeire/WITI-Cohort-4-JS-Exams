@@ -1,0 +1,51 @@
+body { 
+  font-family: Arial; 
+  margin: 20px; 
+}
+#list { 
+  margin-top: 20px; 
+  margin: auto;
+  width: 100%;
+  padding: 0;
+}
+li { 
+  margin-bottom: 5px; 
+  background-color: rgba(77, 141, 157, 0.522);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+button { 
+  padding: 0.5rem; 
+  background-color: lightblue; 
+  border: none; 
+  cursor: pointer; 
+  width: 8rem;
+}
+.delete { 
+  background-color: rgb(208, 92, 92); 
+  cursor: pointer; 
+}
+.input-container { 
+  display: flex; 
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10px; 
+  width: 100%;
+}
+
+input[type="text"] { 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  height: 2rem;
+  width: 80%;
+}
+.container { 
+  display: flex; 
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+}
+
