@@ -32,11 +32,11 @@ Answers to Intermediate Web Design and Development JS exams and quizzes
 1. let, const, var differences:
 
     ```
-    - var is function-scoped, can be re-declared and updated.
+    - var is function-scoped, can be re-declared and updated/re-assigned.
 
-    - let is block-scoped, can be updated but not re-declared.
+    - let is block-scoped, can be updated/re-assigned but not re-declared.
 
-    - const is block-scoped and cannot be updated or re-declared.
+    - const is block-scoped and cannot be updated/re-assigned or re-declared.
     ```
 
 2. Objects vs Arrays:
